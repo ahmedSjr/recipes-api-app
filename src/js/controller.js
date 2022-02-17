@@ -7,6 +7,7 @@ import 'regenerator-runtime/runtime';
 import * as model from './model.js';
 import recipeView from './views/recipeView.js';
 import searchView from './views/searchView.js';
+import resultView from './views/resultView.js';
 
 // https://forkify-api.herokuapp.com/v2
 
@@ -33,6 +34,7 @@ const controllerRecipes = async function () {
 
 const controlSearchResults = async function () {
   try {
+    resultView.renderSpinner();
     //For getting the query ot term
     const query = searchView.getQuery();
     if (!query) return;
@@ -46,7 +48,7 @@ const controlSearchResults = async function () {
     //Clear the input fields
     // searchView.clearInput();
   } catch (err) {
-    console.log(err);
+    console.error(err);
   }
 };
 
