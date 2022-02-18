@@ -4,6 +4,9 @@ export default class View {
   _data;
 
   render(data) {
+    // if (!data || (Array.isArray(data) && data.length === 0))
+    //   return this.renderError();
+
     this._data = data;
     const markup = this._generateMarkup();
     this._clear();
@@ -20,7 +23,7 @@ export default class View {
     const markup = `
   <div class="spinner">
       <svg>
-        <use href="${icons}_icon-loader"></use>
+        <use href="${icons}#icon-loader"></use>
       </svg>
     </div>`;
 
