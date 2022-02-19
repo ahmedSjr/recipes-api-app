@@ -99,7 +99,7 @@
 69E:\JavaScript\Forkify-api-app\node_modules\es-abstract\5\SameValue.js132879197188553874 0
 73E:\JavaScript\Forkify-api-app\node_modules\core-js\stable\array\values.js132879197251507684 0
 79E:\JavaScript\Forkify-api-app\node_modules\core-js\features\string\fontcolor.js132879197203903854 0
-34E:\JavaScript\Forkify-api-app\dist132897761104635883 1
+34E:\JavaScript\Forkify-api-app\dist132897820523673112 1
 78E:\JavaScript\Forkify-api-app\node_modules\@parcel\utils\src\parseCSSImport.js132879197018626960 0
 65E:\JavaScript\Forkify-api-app\node_modules\path-type\package.json132879196893099035 0
 80E:\JavaScript\Forkify-api-app\node_modules\es-abstract\5\CheckObjectCoercible.js132879197086709258 0
@@ -163,7 +163,7 @@
 79E:\JavaScript\Forkify-api-app\node_modules\postcss-ordered-values\dist\index.js132879196958261814 0
 65E:\JavaScript\Forkify-api-app\node_modules\term-size\vendor\macos132879196914689893 1
 83E:\JavaScript\Forkify-api-app\node_modules\highlight.js\lib\languages\livescript.js132879197126124335 0
-60E:\JavaScript\Forkify-api-app\src\js\views\paginationView.js132897756492791982 0
+60E:\JavaScript\Forkify-api-app\src\js\views\paginationView.js132897781865570719 0
 73E:\JavaScript\Forkify-api-app\node_modules\is-number-object\.eslintignore132879196898679055 0
 63E:\JavaScript\Forkify-api-app\node_modules\postcss-value-parser132879196944829882 1
 62E:\JavaScript\Forkify-api-app\node_modules\json5\lib\util.d.ts132879196986851799 0
@@ -247,7 +247,7 @@
 69E:\JavaScript\Forkify-api-app\node_modules\which-boxed-primitive\test132879196936859906 1
 72E:\JavaScript\Forkify-api-app\node_modules\highlight.js\scss\github.scss132879197159457519 0
 52E:\JavaScript\Forkify-api-app\node_modules\@trysound132879196799051501 1
-46E:\JavaScript\Forkify-api-app\src\js\config.js132897761101975860 0
+46E:\JavaScript\Forkify-api-app\src\js\config.js132897761845311691 0
 62E:\JavaScript\Forkify-api-app\node_modules\core-js\es\weak-set132879197217336407 1
 86E:\JavaScript\Forkify-api-app\node_modules\caniuse-lite\data\features\selection-api.js132879197190893863 0
 71E:\JavaScript\Forkify-api-app\node_modules\electron-to-chromium\LICENSE132879196888389053 0
@@ -267,7 +267,7 @@
 58E:\JavaScript\Forkify-api-app\node_modules\source-map\dist132879196968941794 1
 90E:\JavaScript\Forkify-api-app\node_modules\@parcel\resolver-default\lib\DefaultResolver.js132879196901479052 0
 63E:\JavaScript\Forkify-api-app\node_modules\has-bigints\index.js132879196919409896 0
-50E:\JavaScript\Forkify-api-app\src\js\controller.js132897761024892524 0
+50E:\JavaScript\Forkify-api-app\src\js\controller.js132897820508217701 0
 85E:\JavaScript\Forkify-api-app\node_modules\es-abstract\2019\CreateIterResultObject.js132879197103155871 0
 64E:\JavaScript\Forkify-api-app\node_modules\stream-http\README.md132879196941019874 0
 73E:\JavaScript\Forkify-api-app\node_modules\@parcel\core\src\AssetGraph.js132879196986281746 0
@@ -283,7 +283,7 @@
 61E:\JavaScript\Forkify-api-app\node_modules\is-extglob\LICENSE132879196904489036 0
 73E:\JavaScript\Forkify-api-app\node_modules\es-abstract\helpers\forEach.js132879197151845532 0
 55E:\JavaScript\Forkify-api-app\node_modules\@parcel\hash132879197008444466 1
-45E:\JavaScript\Forkify-api-app\src\js\model.js132896970415626973 0
+45E:\JavaScript\Forkify-api-app\src\js\model.js132897771785406038 0
 79E:\JavaScript\Forkify-api-app\node_modules\core-js\stable\array-buffer\slice.js132879197239487706 0
 68E:\JavaScript\Forkify-api-app\node_modules\core-js\internals\task.js132879197243947702 0
 62E:\JavaScript\Forkify-api-app\node_modules\terser\package.json132879197020356961 0
@@ -295,7 +295,7 @@
 55E:\JavaScript\Forkify-api-app\node_modules\util\util.js132879196927939867 0
 79E:\JavaScript\Forkify-api-app\node_modules\highlight.js\lib\languages\axapta.js132879197074361284 0
 88E:\JavaScript\Forkify-api-app\node_modules\@parcel\transformer-raw\src\RawTransformer.js132879196907669070 0
-56E:\JavaScript\Forkify-api-app\src\js\views\recipeView.js132896719497328036 0
+56E:\JavaScript\Forkify-api-app\src\js\views\recipeView.js132897789310201223 0
 79E:\JavaScript\Forkify-api-app\node_modules\@swc\helpers\src\_super_prop_base.js132879197075992633 0
 42E:\JavaScript\Forkify-api-app\src\js\views132896971846563292 1
 59E:\JavaScript\Forkify-api-app\node_modules\minimist\LICENSE132879196892799083 0
@@ -5413,7 +5413,7 @@
 76E:\JavaScript\Forkify-api-app\node_modules\@swc\helpers\src\_to_primitive.js132879197086519245 0
 59E:\JavaScript\Forkify-api-app\node_modules\miller-rabin\bin132879196928329865 1
 77E:\JavaScript\Forkify-api-app\node_modules\highlight.js\lib\languages\less.js132879197121036444 0
-45E:\JavaScript\Forkify-api-app\dist\index.html132896993723554533 0
+45E:\JavaScript\Forkify-api-app\dist\index.html132897781478649762 0
 59E:\JavaScript\Forkify-api-app\node_modules\miller-rabin\lib132879196938599918 1
 68E:\JavaScript\Forkify-api-app\node_modules\miller-rabin\node_modules132879196799151512 1
 81E:\JavaScript\Forkify-api-app\node_modules\@babel\core\lib\gensync-utils\async.js132879197003244446 0
@@ -5694,7 +5694,7 @@
 100E:\JavaScript\Forkify-api-app\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\Doxyfile132879196953351788 0
 97E:\JavaScript\Forkify-api-app\node_modules\@babel\types\lib\modifications\removePropertiesDeep.js132879197027359039 0
 101E:\JavaScript\Forkify-api-app\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\intro.doc132879197060057517 0
-57E:\JavaScript\Forkify-api-app\dist\index.f7626f62.css.map132896993723754428 0
+57E:\JavaScript\Forkify-api-app\dist\index.f7626f62.css.map132897781468309743 0
 99E:\JavaScript\Forkify-api-app\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\LICENSE132879196963041813 0
 76E:\JavaScript\Forkify-api-app\node_modules\es-abstract\2019\DayWithinYear.js132879197130557786 0
 98E:\JavaScript\Forkify-api-app\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\lmdb.h132879197065416504 0
@@ -7687,7 +7687,7 @@
 80E:\JavaScript\Forkify-api-app\node_modules\es-abstract\2020\BigInt\bitwiseAND.js132879197032280352 0
 61E:\JavaScript\Forkify-api-app\node_modules\cssnano-utils\dist132879196928339875 1
 79E:\JavaScript\Forkify-api-app\node_modules\es-abstract\2020\BigInt\bitwiseOR.js132879197054537198 0
-52E:\JavaScript\Forkify-api-app\dist\index.e37f48ea.js132897761104555879 0
+52E:\JavaScript\Forkify-api-app\dist\index.e37f48ea.js132897820523433033 0
 104E:\JavaScript\Forkify-api-app\node_modules\@parcel\transformer-react-refresh-wrap\src\helpers\helpers.js132879196912849883 0
 76E:\JavaScript\Forkify-api-app\node_modules\es-abstract\2020\BigInt\divide.js132879197140242370 0
 82E:\JavaScript\Forkify-api-app\node_modules\es-abstract\2020\BigInt\exponentiate.js132879197150074368 0
@@ -11224,7 +11224,7 @@
 67E:\JavaScript\Forkify-api-app\node_modules\browserify-aes\README.md132879196959641790 0
 73E:\JavaScript\Forkify-api-app\node_modules\browserify-aes\streamCipher.js132879196962271823 0
 71E:\JavaScript\Forkify-api-app\node_modules\browserify-aes\modes\cfb1.js132879196971371785 0
-53E:\JavaScript\Forkify-api-app\dist\icons.dfd7a6db.svg132896993723564438 0
+53E:\JavaScript\Forkify-api-app\dist\icons.dfd7a6db.svg132897781478649762 0
 91E:\JavaScript\Forkify-api-app\node_modules\@babel\types\lib\builders\generated\uppercase.js132879196969681780 0
 71E:\JavaScript\Forkify-api-app\node_modules\browserify-aes\modes\cfb8.js132879196973321789 0
 72E:\JavaScript\Forkify-api-app\node_modules\browserify-aes\modes\index.js132879196979031807 0
@@ -11712,7 +11712,7 @@
 89E:\JavaScript\Forkify-api-app\node_modules\@parcel\transformer-react-refresh-wrap\LICENSE132879196895659035 0
 79E:\JavaScript\Forkify-api-app\node_modules\@parcel\babylon-walk\src\traverse.js132879196955271812 0
 85E:\JavaScript\Forkify-api-app\node_modules\@parcel\transformer-react-refresh-wrap\src132879196937939903 1
-53E:\JavaScript\Forkify-api-app\dist\index.f7626f62.css132896993723564438 0
+53E:\JavaScript\Forkify-api-app\dist\index.f7626f62.css132897781468149771 0
 93E:\JavaScript\Forkify-api-app\node_modules\@parcel\transformer-react-refresh-wrap\src\helpers132879196943489866 1
 116E:\JavaScript\Forkify-api-app\node_modules\@parcel\transformer-react-refresh-wrap\src\ReactRefreshWrapTransformer.js132879196939829893 0
 93E:\JavaScript\Forkify-api-app\node_modules\@parcel\transformer-react-refresh-wrap\lib\helpers132879196901359057 1
@@ -12565,8 +12565,8 @@
 54E:\JavaScript\Forkify-api-app\node_modules\.bin\sha.js132879197283659212 0
 54E:\JavaScript\Forkify-api-app\node_modules\.bin\terser132879197283669218 0
 58E:\JavaScript\Forkify-api-app\node_modules\.bin\terser.cmd132879197283669218 0
-55E:\JavaScript\Forkify-api-app\dist\favicon.8b2f57bf.png132896993723434486 0
-53E:\JavaScript\Forkify-api-app\dist\icons.21bad73c.svg132896993723564438 0
+55E:\JavaScript\Forkify-api-app\dist\favicon.8b2f57bf.png132897781477919730 0
+53E:\JavaScript\Forkify-api-app\dist\icons.21bad73c.svg132897781478649762 0
 52E:\JavaScript\Forkify-api-app\dist\index.62406edb.js132879446029730238 0
-56E:\JavaScript\Forkify-api-app\dist\index.e37f48ea.js.map132897761104615901 0
-52E:\JavaScript\Forkify-api-app\dist\logo.726d37a8.png132896993723524433 0
+56E:\JavaScript\Forkify-api-app\dist\index.e37f48ea.js.map132897820523613059 0
+52E:\JavaScript\Forkify-api-app\dist\logo.726d37a8.png132897781477959776 0
