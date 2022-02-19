@@ -9,6 +9,7 @@ import * as model from './model.js';
 import recipeView from './views/recipeView.js';
 import searchView from './views/searchView.js';
 import resultView from './views/resultView.js';
+import paginationView from './views/paginationView';
 
 if (module.hot) {
   module.hot.accept();
@@ -48,8 +49,10 @@ const controlSearchResults = async function () {
 
     //Render the results
 
-    resultView.render(model.getSearchResultPage(1));
+    resultView.render(model.getSearchResultPage());
 
+    //Render the pagination
+    paginationView.render(model.state.search);
     //Clear the input fields
     // searchView.clearInput();
   } catch (err) {
@@ -57,9 +60,18 @@ const controlSearchResults = async function () {
   }
 };
 
+const controlPagination = function (goToPage) {
+  //Render new results
+  resultView.render(model.getSearchResultPage(goToPage));
+
+  //Render the pagination
+  paginationView.render(model.state.search);
+};
+
 const init = function () {
   recipeView.addHandlerRender(controllerRecipes);
   searchView.addHandlerSearch(controlSearchResults);
+  paginationView.addHandlerClick(controlPagination);
 };
 
 init();

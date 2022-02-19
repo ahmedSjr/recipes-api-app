@@ -8,6 +8,7 @@ export const state = {
     query: '',
     results: [],
     resultPerPage: RES_PER_PAGE,
+    page: 1,
   },
 };
 
@@ -51,7 +52,8 @@ export const loadSearchResult = async function (query) {
   }
 };
 
-export const getSearchResultPage = function (page) {
+export const getSearchResultPage = function (page = state.search.page) {
+  state.search.page = page;
   const start = (page - 1) * state.search.resultPerPage;
   const end = page * state.search.resultPerPage;
   return state.search.results.slice(start, end);
