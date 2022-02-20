@@ -543,6 +543,8 @@ const controllerRecipes = async function() {
         const id = window.location.hash.slice(1);
         if (!id) return;
         _recipeViewJsDefault.default.renderSpinner();
+        //Mark selected search results
+        _resultViewJsDefault.default.update(_modelJs.getSearchResultPage());
         //Loading recipe
         await _modelJs.loadRecipe(id);
         //Rendering the recipe
@@ -2792,14 +2794,15 @@ class View {
         this._parentEl.innerHTML = '';
     }
     update(data) {
-        if (!data || Array.isArray(data) && data.length === 0) return this.renderError();
+        // if (!data || (Array.isArray(data) && data.length === 0))
+        //   return this.renderError();
         this._data = data;
         const newMarkup = this._generateMarkup();
         const newDOM = document.createRange().createContextualFragment(newMarkup);
         const newElements = Array.from(newDOM.querySelectorAll('*'));
         const curElements = Array.from(this._parentEl.querySelectorAll('*'));
-        console.log(newElements);
-        console.log(curElements);
+        // console.log(newElements);
+        // console.log(curElements);
         newElements.forEach((newEl, i)=>{
             const curEl = curElements[i];
             console.log(curEl, newEl.isEqualNode(curEl));
@@ -2889,9 +2892,10 @@ class ResultView extends _viewJsDefault.default {
         return this._data.map(this._generateMarkupPreview).join();
     }
     _generateMarkupPreview(result) {
+        const id = window.location.hash.slice(1);
         return `
     <li class="preview">
-    <a class="preview__link" href="#${result.id}">
+    <a class="preview__link ${result.id === id ? 'preview__link--active' : ''}" href="#${result.id}">
       <figure class="preview__fig">
         <img src="${result.image}" alt="Test" />
       </figure>
