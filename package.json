@@ -2,7 +2,7 @@
   "name": "forkify-api-app",
   "version": "1.0.0",
   "description": "Recipes app",
-  "default": "index.js",
+  "default": "index",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
