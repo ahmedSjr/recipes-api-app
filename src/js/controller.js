@@ -1,4 +1,4 @@
-//Core js
+// Core js
 // import { search } from 'core-js/fn/symbol';
 import 'core-js/stable';
 //Run time
@@ -11,13 +11,14 @@ import searchView from './views/searchView.js';
 import resultView from './views/resultView.js';
 import paginationView from './views/paginationView';
 import bookmarkView from './views/bookmarkView.js';
-import AddRecipeView from './views/addRecipeView.js';
+// import AddRecipeView from './views/addRecipeView.js';
 import addRecipeView from './views/addRecipeView.js';
-
 import { MODEL_CLOSE_SEC } from './config.js';
+
 if (module.hot) {
   module.hot.accept();
 }
+
 // https://forkify-api.herokuapp.com/v2
 
 ///////////////////////////////////////
@@ -96,7 +97,7 @@ const controlAddBookmarks = function () {
   //Update the view
   recipeView.update(model.state.recipe);
 
-  //   Render bookmarks
+  // Render bookmarks
   bookmarkView.render(model.state.bookmarks);
 };
 
@@ -105,7 +106,7 @@ controlBookmarks = function () {
 };
 
 const controlAddRecipe = async function (newRecipe) {
-  //   console.log(newRecipe);
+  // console.log(newRecipe);
   try {
     //Spinner
     addRecipeView.renderSpinner();
@@ -118,6 +119,12 @@ const controlAddRecipe = async function (newRecipe) {
 
     //Success message
     addRecipeView.renderMessage();
+
+    //Render bookmark
+    bookmarkView.render(model.state.bookmarks);
+
+    //Change id in url
+    window.history.pushState(null, '', `#${model.state.recipe.id}`);
     //close form
     setTimeout(function () {
       addRecipeView.toggleWindow();
