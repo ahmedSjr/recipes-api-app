@@ -2,10 +2,10 @@
   "name": "forkify-api-app",
   "version": "1.0.0",
   "description": "Recipes app",
-  "main": "index.js",
+  "default": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Ahmed Sirag",
   "license": "ISC",
